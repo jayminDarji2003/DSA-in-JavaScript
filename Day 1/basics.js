@@ -76,3 +76,98 @@ console.log(obj["profession"])
 
 
 console.log("----------------------------------------------------------------")
+
+// Operators in js
+/*
+    1. assignment operator  --> =, +=, -= , *=, /=,
+    2. arithmetic operator  --> + , - , * , / , %
+    3. comparision operator --> < , > , <= , >=, === , ==, !==
+    4. logical operator     --> &&, ||, 1
+    5. conditional operator -> ? :
+*/
+
+
+// control statements
+/*
+    1. if else
+    2. switch statements
+    3. while loop
+    4. do while loop
+    5. for loop
+    6. for in loop
+    7. for of loop
+    8. foreach loop
+    9. conditional operator
+*/
+
+let a = 10;
+let b = 10;
+
+// if else
+if (a > b) {
+    console.log(b, " b is max");
+} else if (a === b) {
+    console.log("both are same")
+}
+else {
+    console.log(a, " a is max")
+}
+
+
+// switch statements
+const ch = 4;
+
+switch (ch) {
+    case 1:
+        console.log("monday")
+        break;
+    case 2:
+        console.log("tuesday")
+        break;
+    case 3:
+        console.log("wednesday")
+        break;
+    case 4:
+        console.log("thursday")
+        break;
+    case 5:
+        console.log("friday")
+        break;
+    case 6:
+        console.log("saturday")
+        break;
+    case 7:
+        console.log("sunday")
+        break;
+
+    default:
+        console.log("invalid choice")
+        break;
+}
+
+
+// while loop
+let x = 1;
+
+while (x < 10) {
+    console.log(x)
+    x++;
+}
+
+console.log("--------------------")
+
+// do while loop
+let y = 1;
+do {
+    console.log(y);
+    y++;
+} while (y < 10)
+
+console.log("--------------------")
+
+// for loop
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+
+// for in loop
