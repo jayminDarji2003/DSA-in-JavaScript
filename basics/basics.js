@@ -170,4 +170,35 @@ for (let i = 0; i < 10; i++) {
     console.log(i)
 }
 
-// for in loop
+console.log("--------------------")
+
+const myArr = ["apple", "banana", "mango", "orange", "watermelon", "muskmelon"];
+
+// for in loop - return index of it.
+for (let fruit in myArr) {
+    console.log(fruit)
+}
+console.log("--------------------")
+
+// for of loop - return value of it.
+for (let fruit of myArr) {
+    console.log(fruit)
+}
+
+
+const myArr2 = [["apple", "banana", "mango"], ["orange", "watermelon", "muskmelon"]];
+for (let i of myArr2) {
+    console.log(i)
+}
+
+console.log("--------------------")
+
+// conditional operator
+// ? :
+
+let j = 100;
+let d = 120;
+console.log(j > d ? "j is max" : "d is max");
+
+console.log("--------------------")
+
